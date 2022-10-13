@@ -4,9 +4,8 @@ const Navbar = () => {
     return ( 
         <nav className='navbar'>
             <ul>
-                <li className='navbar-icon'><a href="/">Home</a></li>
-                <li className="navbar-item"><a href="/about">About</a></li>
-                <li className="navbar-item"><a href="/settings">Settings</a></li>
+                <li className='navbar-icon'><a href="/"><i class="fa-solid fa-house"></i></a></li>
+                <li className="navbar-item"><a href="/settings"><i class="fa-solid fa-gear"></i></a></li>
             </ul>
         </nav>
      );
